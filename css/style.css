@@ -1,0 +1,83 @@
+*{margin:0;padding: 0}
+ul{list-style: none}
+li{margin: 0}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix{overflow: hidden}
+
+.flex_box{
+    display:flex;
+    display:-webkit-flex;
+}
+
+.container {
+    padding: 0.512rem; }
+body {
+    font-family: 'Microsoft YaHei',"serif","sans-serif","cursive","fantasy","monospace","Times New Roman","Georgia","Serif";
+    font-size: 0.55467rem;
+    color: #333;
+    background: #ececec;
+}
+a:hover, a:focus,a:visited,a{
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    vertical-align: middle; }
+
+.iconfont {
+    vertical-align: middle; }
+.flex_box{
+    display: flex;
+    display: -webkit-flex;
+}
+.flex_space {
+    justify-content: space-between; }
+
+.flex_middle {
+    align-items: center; }
+.flex_center{
+    justify-content: center;
+}
+.flex_wrap {
+    flex-wrap: wrap; }
+
+.flex_shrink {
+    flex-shrink: 0; }
+.width50{
+    flex-basis:50%;
+}
+.full{
+    width:100%;
+}
+.center{
+    text-align: center;
+}
+.bg_white{
+    background-color: #fff;
+}
+.block{
+    display: block;
+}
+/*字体的颜色*/
+.gray_color{
+    color: #999;
+}
+.color_white{
+    color: #fff;
+}
+.color_normal{
+    color: #333;
+}
+.gray_bg{
+    background-color: #f3f3f3;
+}
+
+.modal{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: rgba(0,0,0,.5);
+}
